@@ -1,0 +1,59 @@
+body {
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../images/background.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    height: 40%;
+    width: 100%;
+}
+
+.play {
+    position: absolute;
+    top: 80%;
+    width: 8%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 16%;
+    }
+
+    .title {
+        font-size: 5em;
+        width: 90%;
+    }
+
+    .play {
+        top:70%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .logo {
+        width: 23%;
+    }
+
+    .play {
+        top: 80%;
+        width: 30%;
+    }
+}
